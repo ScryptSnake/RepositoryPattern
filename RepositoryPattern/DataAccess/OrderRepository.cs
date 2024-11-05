@@ -14,7 +14,6 @@ namespace RepositoryPattern.DataAccess;
 /// </summary>
 public sealed class OrderRepository: IRepository<SalesOrder>
 {
-
     private IDbConnection Connection { get; }
 
     public OrderRepository(IDbConnection connection)
